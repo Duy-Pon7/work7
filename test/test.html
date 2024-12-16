@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Highlight with Highlight.js</title>
+    <!-- Thêm CSS của Highlight.js -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/default.min.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <!-- Đoạn code PHP -->
+        <pre><code class="language-java">
+&lt;?php
+$servername = "localhost"; // Thường là localhost
+$username = "root"; // Tên người dùng (mặc định là root nếu bạn không thay đổi)
+$password = ""; // Mật khẩu (rỗng nếu bạn không đặt mật khẩu cho MySQL)
+$dbname = "blog_database"; // Tên cơ sở dữ liệu mà bạn đã tạo
+
+// Tạo kết nối
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Kiểm tra kết nối
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+?&gt;
+        </code></pre>
+    </div>
+
+    <!-- Thêm thư viện Highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+    <script>
+        // Kích hoạt Highlight.js
+        document.addEventListener("DOMContentLoaded", () => {
+            document.querySelectorAll('pre code').forEach((block) => {
+                hljs.highlightElement(block);
+            });
+        });
+    </script>
+</body>
+</html>
