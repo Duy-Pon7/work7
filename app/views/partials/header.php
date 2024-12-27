@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>techno</title>
+    <title><?php echo isset($pageTitle) ? $pageTitle : "Work7"; ?></title>
     <!-- <link href="style.css" rel="stylesheet"> -->
     <link href="/work7/public/css/custom.css" rel="stylesheet">
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
@@ -41,16 +41,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link text-gray" href="/work7/public/learn.php">Học tập IT</a>
+                        <a class="nav-link text-gray" href="/work7/public/learn.php">Học Tập IT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-gray" href="/work7/public/market.php">Thị trường IT</a>
+                        <a class="nav-link text-gray" href="/work7/public/market.php">Thị Trường IT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-gray" href="/work7/app/views/word_cloud.php">Đám mây từ</a>
+                        <a class="nav-link text-gray" href="/work7/app/views/word_cloud.php">Đám Mây Từ</a>
                     </li>
                 </ul>
-                <a class="text-gray btn btn-outline-success" href="#">Hỏi đáp</a>
+                <a class="text-gray btn btn-outline-warning" href="#">Trao đổi</a>
             </div>
         </div>
     </nav>

@@ -16,5 +16,5 @@ if (isset($_GET['action'])) {
     }
 } else {
     // Nếu không có tham số, gọi phương thức showHomePage() để hiển thị trang chủ
-    $controller->showHomeLearn();
+    $controller->showHomeMarket();
 }

@@ -10,16 +10,7 @@
                 tích,
                 trực quan hóa, đưa ra các insights.</p> -->
         <p class="text-center ms-5 me-5 mb-4 border-bottom pb-4 border-dark"> Bước đệm công nghệ, công việc và nhiều thứ khác.</p>
-        <img class="rounded-3" src="/work7/public/images/page_5.png" alt="Trang đầu tiên của PDF" width="100%"
-            type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false"
-            aria-controls="collapseExample" />
-        <div class="collapse" id="collapseExample">
-            <div class="card card-body">
-                Some placeholder content for the collapse component. This panel is hidden by default but revealed
-                when
-                the user activates the relevant trigger.
-            </div>
-        </div>
+        <img class="rounded-3" src="/work7/public/images/page_5.png" alt="Trang đầu tiên của PDF" width="100%" />
     </div>
     <div class="col-sm-2 bg-gray">
     </div>
@@ -35,11 +26,10 @@
                     <img src="/work7/public/images/undraw_Working_re_ddwy.png" class="card-img-top" alt="..."
                         style="object-fit: contain; height: 200px; width: 100%;">
                     <div class="card-body d-flex flex-column">
-                        <h5 class="card-title d-flex justify-content-center">Tài liệu</h5>
-                        <p class="card-text text-center">Chia sẻ <strong>tài liệu</strong>, kinh nghiệm trong ngành
-                            IT.</p>
+                        <h5 class="card-title d-flex justify-content-center">Học tập IT</h5>
+                        <p class="card-text text-center">Mục tiêu, kiến thức, câu chuyện trong từng môn học IT.</p>
                         <p class="card-text text-center"><em>(Học sinh, sinh viên)</em></p>
-                        <a href="#" class="btn btn-outline-dark mt-auto d-flex justify-content-center">Chi tiết</a>
+                        <a href="/work7/public/learn.php" class="btn btn-outline-dark mt-auto d-flex justify-content-center">Chi tiết</a>
                     </div>
                 </div>
             </div>
@@ -50,56 +40,63 @@
                         style="object-fit: contain; height: 200px; width: 100%;">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title d-flex justify-content-center">Thị trường IT</h5>
-                        <p class="card-text text-center">Ngôn ngữ lập trình, kỹ năng, cấp bậc, vị trí,... theo thời gian thực.</p>
+                        <p class="card-text text-center">Ngôn ngữ lập trình, kỹ năng, cấp bậc, vị trí,... theo <strong>thời gian thực</strong>.</p>
                         <p class="card-text text-center"><em>(Sinh viên, người đi làm)</em></p>
-                        <a href="#" class="btn btn-outline-dark mt-auto d-flex justify-content-center">Chi tiết</a>
+                        <a href="/work7/public/market.php" class="btn btn-outline-dark mt-auto d-flex justify-content-center">Chi tiết</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 mb-2 d-flex justify-content-center">
                 <div class="card" style="width: 18rem;">
-                    <img src="/work7/public/images/undraw_All_the_data_re_hh4w.png" class="card-img-top" alt="...">
+                    <img src="/work7/public/images/undraw_font_cooz.png" class="card-img-top" alt="..."
+                        style="object-fit: contain; height: 200px; width: 100%;">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title d-flex justify-content-center">Đám mây từ</h5>
-                        <p class="card-text text-center">Kỹ năng, lộ trình </p>
-                        <p class="card-text text-center"><em>(Sinh viên, người đi làm)</em></p>
-                        <a href="#" class="btn btn-outline-dark mt-auto d-flex justify-content-center">Chi tiết</a>
+                        <p class="card-text text-center">Hình ảnh trực quan các từ ngữ.</p><br>
+                        <p class="card-text text-center"><em>(Mọi người)</em></p>
+                        <a href="/work7/app/views/word_cloud.php" class="btn btn-outline-dark mt-auto d-flex justify-content-center">Chi tiết</a>
                     </div>
                 </div>
             </div>
         </div>
         <h4 class="mt-3 p-2 text-center">Nếu bạn lần đầu đến với Work7</h4>
         <p class="text-center ms-5 me-5 mb-4 border-bottom pb-4 border-dark"> Một số hướng dẫn cho người mới bắt đầu và các câu hỏi thường gặp.</p>
-        <div class="accordion accordion-flush mb-5" id="accordionFlushExample">
-            <div class="accordion-item">
+        <div class="accordion mb-5" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                        <strong>Học tập IT</strong>
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        <strong>Học Tập IT</strong>
                     </button>
                 </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
                     <div class="accordion-body">
-                        Lộ trình học tập, tài liệu, và kinh nghiệm trong ngành Công Nghệ Thông Tin theo từng môn học tại
-                        trường Đại Học theo phương pháp step-by-step.
+                        <i>"Thứ đáng sợ nhất là bạn không biết bắt đầu từ đâu và bắt đầu như thế nào."</i><br><br>
+                        Nơi chia sẻ mục tiêu <strong>cơ bản</strong>, kiến thức <strong>giá trị</strong>, câu chuyện <strong>thú vị</strong> thông qua những môn học ngành IT. Mang đến cho mọi người
+                        cái nhìn tổng quan nhất về ngành.
                         <br><br>
+                        Nội dụng:
+                        <ul>
+                            <li>Mục tiêu học tập</li>
+                            <li>Kiến thức, câu chuyện thú vị trong trong môn học.</li>
+                        </ul>
                         Đối tượng:
                         <ul>
                             <li>Học sinh đang tìm hiểu hoặc đang có định hướng về ngành Công Nghệ Thông Tin.</li>
-                            <li>Sinh viên muốn nâng cao kiến thức và cải thiện điểm số trong ngành IT.</li>
-                            <li>Người muốn chuyển ngành hoặc tìm hiểu về ngành Công Nghệ Thông Tin.</li>
+                            <li>Người đang có dự định chuyển sang ngành IT.</li>
+                            <li>Sinh viên tìm hiểu về môn học sắp tới.</li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        <strong>Thị trường IT</strong>
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                        <strong>Thị Trường IT</strong>
                     </button>
                 </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
                     <div class="accordion-body">
-                        Sử dụng web scraping để cung cấp báo cáo và nhận định, giúp mọi người đưa ra những quyết định chính
+                        Sử dụng <strong>web scraping</strong> để cung cấp báo cáo và nhận định, giúp mọi người đưa ra những quyết định chính
                         xác hơn.
                         <br><br>
                         Đối tượng:
@@ -113,11 +110,11 @@
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                        <strong>Đám mây từ</strong>
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                        <strong>Đám Mây Từ</strong>
                     </button>
                 </h2>
-                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
                     <div class="accordion-body">
                         Đám mây từ (Word cloud generator) giúp tạo ra một hình ảnh trực quan, thể hiện tần suất xuất hiện của các từ trong một tập dữ liệu.
                         <br><br>

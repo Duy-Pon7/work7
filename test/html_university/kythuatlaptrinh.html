@@ -74,7 +74,7 @@
         <div class="col-sm-8 bg-gray">
             <div class="bg-white border border-1 rounded-2 mt-3 p-3">
                 <!-- Database -->
-                <h1><strong>Nhập môn lập trình</strong></h1>
+                <h1><strong>Kỹ thuật lập trình</strong></h1>
                 <p><strong>Ngày phát hành: </strong>12/12/2024</p>
                 <p><strong>Ngày cập nhật: </strong>12/12/2024</p>
             </div>
@@ -84,61 +84,107 @@
                     class="scrollspy-example-2" tabindex="0">
 
                     <h3 id="item-1"><strong>Nội dung môn học: </strong></h3>
+                    <h6 class="text-secondary">Đơn giản hóa nội dung môn học</h6>
                     <ul>
-                        <li id="item-1-1"><strong>Chương 1: Hệ thống số:</strong> Chương này giống như việc học bảng chữ cái trước khi
-                            học đọc. Máy tính sử dụng hệ nhị phân (0 và 1) để lưu trữ thông tin, thay vì hệ thập phân (0
-                            đến 9) mà con người sử dụng. Chương này sẽ giúp bạn hiểu cách máy tính biểu diễn số, chữ cái
-                            và các ký hiệu khác.</li>
+                        <li id="item-1-1"><strong>Chương 1: Kiểu dữ liệu trả về</strong></li>
                         <ul>
-                            <li>Ví dụ: Số 10 trong hệ thập phân sẽ được biểu diễn là 1010 trong hệ nhị phân. Máy tính sử
-                                dụng hệ nhị phân để lưu trữ và xử lý số liệu.</li>
+                            <li>Giới thiệu về các kiểu dữ liệu trả về trong lập trình (ví dụ: kiểu nguyên thủy, kiểu đối tượng, kiểu mảng,...)</li>
+                            <li>Ví dụ: <code>return int;</code> trong một hàm tính toán tổng.</li>
                         </ul>
                         <br>
-                        <li id="item-1-2"><strong>Chương 2: Lưu đồ khối:</strong> Chương này giống như việc lập kế hoạch trước khi xây
-                            nhà. Trước khi viết mã, bạn cần hình dung cách giải quyết vấn đề. Lưu đồ khối là công cụ
-                            trực quan giúp bạn thể hiện từng bước giải quyết vấn đề một cách logic.</li>
+                    
+                        <li id="item-1-2"><strong>Chương 2: Mảng 1 chiều, mảng 2 chiều</strong></li>
                         <ul>
-                            <li>Ví dụ: Bạn muốn viết chương trình tính tổng hai số. Lưu đồ khối sẽ thể hiện các bước:
+                            <li>Giới thiệu về mảng 1 chiều và 2 chiều, cách khai báo và sử dụng trong lập trình.</li>
+                            <li>Ví dụ: 
+                                <pre>
+                                int[] arr1D = {1, 2, 3}; // Mảng 1 chiều
+                                int[,] arr2D = {{1, 2}, {3, 4}}; // Mảng 2 chiều
+                                </pre>
                             </li>
                         </ul>
                         <br>
-                        <li><strong>Chương 3: Giới thiệu ngôn ngữ C:</strong> Chương này giống như việc học ngữ pháp và
-                            từ vựng của một ngôn ngữ mới. Bạn sẽ được giới thiệu về ngôn ngữ lập trình C, cách viết các
-                            câu lệnh đơn giản để máy tính hiểu và thực hiện.</li>
+                    
+                        <li><strong>Chương 3: Độ phức tạp, cải tiến giải thuật</strong></li>
                         <ul>
-                            <li>Ví dụ: Để in dòng chữ "Hello, World!" ra màn hình, bạn có thể sử dụng đoạn mã C sau:
+                            <li>Giới thiệu về độ phức tạp thuật toán (Big-O), các loại độ phức tạp phổ biến.</li>
+                            <li>Ví dụ: <code>for</code> loop có độ phức tạp O(n), tìm kiếm nhị phân có độ phức tạp O(log n).</li>
+                        </ul>
+                        <br>
+                    
+                        <li><strong>Chương 4: Phương pháp duyệt</strong></li>
+                        <ul>
+                            <li>Giới thiệu về các phương pháp duyệt trong lập trình: Vét cạn, Quay lui, Đệ quy, Khử đệ quy, Duyệt có đặt cận.</li>
+                            <li>Ví dụ: 
+                                <ul>
+                                    <li>Vét cạn: Duyệt tất cả các khả năng của bài toán và tìm ra lời giải tốt nhất.</li>
+                                    <li>Quay lui: Duyệt theo cách thử và sai, quay lại nếu không tìm được lời giải đúng.</li>
+                                    <li>Đệ quy: Duyệt theo cách gọi lại chính nó với một tập con của bài toán.</li>
+                                </ul>
                             </li>
                         </ul>
                         <br>
-                        <li><strong>Chương 4: Chương trình con:</strong> Chương này giống như việc chia một công việc
-                            lớn thành nhiều phần nhỏ hơn để dễ quản lý. Chương trình con giúp bạn tổ chức mã lệnh một
-                            cách hiệu quả, tái sử dụng mã và giảm thiểu lỗi.</li>
+                    
+                        <li><strong>Chương 5: Quy hoạch động</strong></li>
                         <ul>
-                            <li>Ví dụ: Bạn có thể viết một hàm tính tổng hai số và sử dụng hàm này nhiều lần trong
-                                chương trình chính.</li>
-                        </ul>
-                        <br>
-                        <li><strong>Chương 5: Cấu trúc điều khiển:</strong> Chương này giống như việc học cách đưa ra
-                            quyết định và lặp lại các hành động. Bạn sẽ học cách sử dụng các câu lệnh điều khiển để máy
-                            tính thực hiện các hành động khác nhau dựa trên các điều kiện nhất định.</li>
-                        <ul>
-                            <li>Ví dụ: Bạn muốn viết chương trình kiểm tra số nhập vào là số chẵn hay số lẻ. Bạn có thể
-                                sử dụng câu lệnh if-else để đưa ra quyết định dựa trên điều kiện số đó chia hết cho 2
-                                hay không.</li>
-                        </ul>
-                        <br>
-                        <li><strong>Chương 6: Mảng - Chuỗi:</strong> Chương này giống như việc học cách sắp xếp và thao
-                            tác với danh sách các mục. Mảng giúp bạn lưu trữ và xử lý nhiều dữ liệu cùng loại, trong khi
-                            chuỗi ký tự được sử dụng để làm việc với văn bản.</li>
-                        <ul>
-                            <li>Ví dụ: Bạn muốn lưu trữ danh sách điểm của 10 sinh viên. Bạn có thể sử dụng mảng để lưu
-                                trữ 10 giá trị số nguyên đại diện cho điểm của mỗi sinh viên.</li>
+                            <li>Giới thiệu về quy hoạch động và các bài toán điển hình như bài toán cái túi, xâu chung dài nhất, v.v.</li>
+                            <li>Ví dụ: 
+                                <ul>
+                                    <li>Bài toán cái túi: Tìm cách chọn các vật phẩm sao cho tổng giá trị tối đa và tổng trọng lượng không vượt quá giới hạn.</li>
+                                    <li>Xâu chung dài nhất: Tìm chuỗi con chung dài nhất của hai xâu đã cho.</li>
+                                </ul>
+                            </li>
                         </ul>
                         <br>
                     </ul>
+                    
                     <h3 id="item-2"><strong>Kiến thức thú vị: </strong></h3>
                     <h6 class="text-secondary">Có thể bạn chưa biết hoặc đã biết?</h6>
                     <h5 id="item-2-1"><strong>1. Trò chơi 35</strong></h5>
+                    <h6 class="text-secondary">Chương 5: Quy hoạch động</h6>
+                    <p class="text-end">Nguồn: ThS. Trần Công Tú</p>
+                    <p><strong>Đầu tiên là luật chơi:</strong> Cho các số 1, 2, 3, 4, 5 và tổng S ban đầu bằng 0. Có 2 người chơi lần lượt chọn một trong các số đã cho theo nguyên tắc không được chọn số mà người kia vừa chọn trước đó, mỗi lần ai chọn đều cộng dồn vào tổng S.</p>
+                    <p>Ai làm cho tổng S lớn hơn 35 là thua.</p>
+                    <p>Yêu cầu: Lập trình cho người chơi với máy sao cho khả năng thắng của máy là cao nhất.</p>
+                    <p>Bạn hãy thử tự chơi với vai trò là 2 người. Hoặc chơi với một bạn nào đó để tìm ra quy luật.</p>
+                    <p>Dưới đây là code bài toán C++. Bạn có thể chơi cùng với máy đã cấu hình theo từng chế độ để tìm quy luật.</p>
+                    <p>Code chỗ này....</p>
+                    <div class="container mt-4">
+                        <div class="card">
+                          <div class="card-header d-flex justify-content-between align-items-center">
+                            <h5 class="mb-0">Code Snippet</h5>
+                            <button type="button" class="btn btn-secondary" id="copyButton"
+                                    data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="custom-tooltip"
+                                    data-bs-title="Click to copy">
+                              Custom tooltip
+                            </button>
+                          </div>
+                          <div class="card-body">
+                            <pre class="bg-light p-3 rounded"><code id="codeSnippet">console.log('Hello, world!');</code></pre>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    <p>Sẽ có 2 trường hợp chính: Một là bạn đã tìm ra được quy luật của nó trước khi dùng code. Hai là bạn vẫn không hiểu và không code được thì cũng không sao đây không phải mục đích chính bài toán này.</p>
+                    <p>Đây là đáp án:</p>
+                    <p>Ảnh...</p>
+                    <p>Chúng ta sẽ sử dụng bảng đáp án có sẵn. Để tạo ra bảng này cũng dễ, bạn chỉ cần đánh số tổng bên phải. Hàng ngang
+                        là con số bạn có thể đánh và chiến thắng. Chúng ta sẽ tư duy ngược lại từ 35, ví dụ 35 thì thua, 34 thì ai chọn 1 thì thắng,
+                         33 thì ai chọn 1 2 thì thắng, 32 thì ai chọn 1 2 3 thì thắng,..., 29 thì ai chọn 3 thì thắng (vì chọn 3 thì đối thủ không chọn được 3 nữa)
+
+                    </p>
+                    <p>Vậy vấn đề được nhận ra, nếu máy là người đi trước mà tối ưu nhất thì khi máy đánh 1 2 3 đầu tiên và theo
+                        quy luật của bảng đáp án thì sẽ luôn thắng.
+                    </p>
+                    <p>Nhưng không dừng lại ở đó, nếu bạn thấy trong code chúng ta có 3 chế độ dễ, trung bình, khó (Chỉ đơn giản tới
+                        mức tổng vượt qua mức bao nhiêu thì lúc đó máy sẽ tra bảng đáp án). Vậy nó để làm gì?
+                        Không phải lúc nào người lập trình cũng tối ưu nhất về phần ứng dụng của mình. Mà cũng phải tối ưu cho <strong>người sử dụng</strong>.
+                        Đặc biệt, thấy rõ trong các trò chơi. Phải có các chế độ, các mức xếp hạng từ dễ đến khó để người dùng chinh phục.
+                    </p>
+                    <div class="callout-info ps-3">Một ứng dụng tạo ra phải đặt <strong>người dùng</strong> là yếu tố đầu tiên.</div>
+                    một số bài toán hay ho hơn cái túi, chuỗi....
+                    <h5 id="item-2-1"><strong>2. Đệ quy</strong></h5>
                     <p class="text-end">Nguồn: ThS. Trần Công Tú</p>
                     <p><strong>Đầu tiên là luật chơi:</strong> Cho các số 1, 2, 3, 4, 5 và tổng S ban đầu bằng 0. Có 2 người chơi lần lượt chọn một trong các số đã cho theo nguyên tắc không được chọn số mà người kia vừa chọn trước đó, mỗi lần ai chọn đều cộng dồn vào tổng S.</p>
                     <p>Ai làm cho tổng S lớn hơn 35 là thua.</p>
@@ -185,6 +231,7 @@
                         Còn riêng về các dạng bài tập thì phương pháp hiệu quả nhất chỉ có thể là <strong>code nhiều, luyện tập nhiều.</strong>
                          Cứ làm nhiều sẽ hiểu cách hoạt động của bài toán đó.
                     </div>
+                    
                 </div>
             </div>
         </div>

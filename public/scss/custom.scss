@@ -34,7 +34,9 @@ $spacers: (
 .bg-black {
     background-color: #242d39 !important; // Đổi màu nền
 }
-
+.bg-code {
+    background-color: #f5f2f0 !important; // Đổi màu nền
+}
 .text-gray {
     color: #E5E5E5 !important;
 }
@@ -47,9 +49,9 @@ $spacers: (
     }
 }
 // Base class
-.callout-info {
-    border-left: 5px solid #7de2f7;
-    background-color: #edfbfe; // Sửa lại cú pháp đúng
+.callout-primary {
+    border-left: 5px solid #dee2e6;
+    background-color: #f8f9fa; // Sửa lại cú pháp đúng
 }
 .callout-warning {
     border-left: 5px solid #ffde7a;

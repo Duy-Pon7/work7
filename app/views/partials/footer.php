@@ -1,3 +1,4 @@
+<!-- Chưa cài thẻ -->
 <div class="row" style="background-color: #282a35">
         <div class="col-sm-2 mt-5"></div>
         <div class="col-sm-4 mt-5">
@@ -24,7 +25,7 @@
                     <h4 class="text-light">work7.com</h4>
                 </div>
             </div>
-            <p class="text-light">Work life balance.</p>
+            <p class="text-light">work-life balance.</p>
             <div class="col-sm-2"></div>
         </div>
         <div class="col-sm-3 mt-5">

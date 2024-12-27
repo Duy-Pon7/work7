@@ -4,16 +4,23 @@ require_once '../app/models/BlogModel.php';
 class BlogController {
 
     // Hiển thị trang chủ với danh sách các blog
-    public function showHomePage() {
+    public function showHomeLearn() {
         $model = new BlogModel();
-        $blogs = $model->getAllBlogs();
+        $uni = $model->getAllUni();
+        $mind = $model->getAllMind();
         include '../app/views/learn.php';  // Hiển thị trang chủ
+    }
+    public function showHomeMarket() {
+        $model = new BlogModel();
+        $poi = $model->getAllPoiMar();
+        $lang = $model->getAllLangMar();
+        include '../app/views/market.php';  // Hiển thị trang chủ
     }
 
     // Hiển thị blog chi tiết theo id
-    public function showBlog($id) {
+    public function showBlog($id, $type) {
         $model = new BlogModel();
-        $blog = $model->getBlogById($id);
+        $blog = $model->getBlogById($id, $type);
         include '../app/views/blog.php';  // Hiển thị blog chi tiết
     }
 }

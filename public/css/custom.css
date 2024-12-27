@@ -12258,6 +12258,10 @@ textarea.form-control-lg {
   background-color: #242d39 !important;
 }
 
+.bg-code {
+  background-color: #f5f2f0 !important;
+}
+
 .text-gray {
   color: #E5E5E5 !important;
 }
@@ -12269,9 +12273,9 @@ textarea.form-control-lg {
   text-decoration: underline;
 }
 
-.callout-info {
-  border-left: 5px solid #7de2f7;
-  background-color: #edfbfe;
+.callout-primary {
+  border-left: 5px solid #dee2e6;
+  background-color: #f8f9fa;
 }
 
 .callout-warning {
