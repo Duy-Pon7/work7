@@ -1,5 +1,4 @@
-<?php include 'partials/header.php'; ?>
-
+<?php include 'app/views/partials/header.php'; ?>
 <!-- Main -->
 <div class="row">
     <div class="col-sm-2 bg-gray">
@@ -10,7 +9,7 @@
                 tích,
                 trực quan hóa, đưa ra các insights.</p> -->
         <p class="text-center ms-5 me-5 mb-4 border-bottom pb-4 border-dark"> Bước đệm công nghệ, công việc và nhiều thứ khác.</p>
-        <img class="rounded-3" src="/work7/public/images/page_5.png" alt="Trang đầu tiên của PDF" width="100%" />
+        <img class="rounded-3" src="/public/images/page_5.png" alt="Trang đầu tiên của PDF" width="100%" />
     </div>
     <div class="col-sm-2 bg-gray">
     </div>
@@ -23,38 +22,38 @@
         <div class="row">
             <div class="col-lg-4 mb-2 d-flex justify-content-center">
                 <div class="card" style="width: 18rem;">
-                    <img src="/work7/public/images/undraw_Working_re_ddwy.png" class="card-img-top" alt="..."
+                    <img src="/public/images/undraw_Working_re_ddwy.png" class="card-img-top" alt="..."
                         style="object-fit: contain; height: 200px; width: 100%;">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title d-flex justify-content-center">Học tập IT</h5>
                         <p class="card-text text-center">Mục tiêu, kiến thức, câu chuyện trong từng môn học IT.</p>
                         <p class="card-text text-center"><em>(Học sinh, sinh viên)</em></p>
-                        <a href="/work7/public/learn.php" class="btn btn-outline-dark mt-auto d-flex justify-content-center">Chi tiết</a>
+                        <a href="/public/learn.php" class="btn btn-outline-dark mt-auto d-flex justify-content-center">Chi tiết</a>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-4 mb-2 d-flex justify-content-center">
                 <div class="card" style="width: 18rem;">
-                    <img src="/work7/public/images/undraw_All_the_data_re_hh4w.png" class="card-img-top" alt="..."
+                    <img src="/public/images/undraw_All_the_data_re_hh4w.png" class="card-img-top" alt="..."
                         style="object-fit: contain; height: 200px; width: 100%;">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title d-flex justify-content-center">Thị trường IT</h5>
                         <p class="card-text text-center">Ngôn ngữ lập trình, kỹ năng, cấp bậc, vị trí,... theo <strong>thời gian thực</strong>.</p>
                         <p class="card-text text-center"><em>(Sinh viên, người đi làm)</em></p>
-                        <a href="/work7/public/market.php" class="btn btn-outline-dark mt-auto d-flex justify-content-center">Chi tiết</a>
+                        <a href="/public/market.php" class="btn btn-outline-dark mt-auto d-flex justify-content-center">Chi tiết</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 mb-2 d-flex justify-content-center">
                 <div class="card" style="width: 18rem;">
-                    <img src="/work7/public/images/undraw_font_cooz.png" class="card-img-top" alt="..."
+                    <img src="/public/images/undraw_font_cooz.png" class="card-img-top" alt="..."
                         style="object-fit: contain; height: 200px; width: 100%;">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title d-flex justify-content-center">Đám mây từ</h5>
                         <p class="card-text text-center">Hình ảnh trực quan các từ ngữ.</p><br>
                         <p class="card-text text-center"><em>(Mọi người)</em></p>
-                        <a href="/work7/app/views/word_cloud.php" class="btn btn-outline-dark mt-auto d-flex justify-content-center">Chi tiết</a>
+                        <a href="/app/views/word_cloud.php" class="btn btn-outline-dark mt-auto d-flex justify-content-center">Chi tiết</a>
                     </div>
                 </div>
             </div>
@@ -139,4 +138,4 @@
     </div>
 </div>
 
-<?php include 'partials/footer.php'; ?>
+<?php include 'app/views/partials/footer.php'; ?>
