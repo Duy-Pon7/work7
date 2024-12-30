@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <!-- nav (Không có đụng gì) -->
+    <!-- nav -->
     <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-black">
         <div class="container-fluid">
             <a class="navbar-brand text-light" href="#">
@@ -74,29 +74,73 @@
             <div class="bg-white border border-1 rounded-2 mt-3 p-3">
                 <!-- Database -->
                 <h1><strong>Kỹ thuật lập trình</strong></h1>
-                <p><strong>Ngày phát hành: </strong>12/21/2024</p>
-                <p><strong>Ngày cập nhật: </strong>12/28/2024</p>
+                <p><strong>Ngày phát hành: </strong>12/12/2024</p>
+                <p><strong>Ngày cập nhật: </strong>12/12/2024</p>
             </div>
             <div class="bg-white border border-1 rounded-2 mt-3 p-3">
                 <!-- Database content-->
                 <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true"
                     class="scrollspy-example-2" tabindex="0">
 
-                    <h2 id="item-1" class=""><strong>Mục tiêu học tập: </strong></h2>
-                    <h6 class="text-secondary mb-4">Các câu hỏi định hướng nên trả lời được sau khi hoàn thành môn học</h6>
-                    <ul class="list-group">
-                        <li class="list-group-item">
-                          <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
-                          <label class="form-check-label" for="firstCheckbox">1. Thành thạo các kỹ thuật bảng phương án, loang mảng 2 chiều, độ phức tạp của giải thuật.</label>
-                        </li>
-                        <li class="list-group-item">
-                          <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
-                          <label class="form-check-label" for="secondCheckbox">2. Làm thế nào để tối ưu hóa các thuật toán đệ quy, quy hoạch động và áp dụng chúng vào các bài toán tìm kiếm, duyệt qua các dãy số, tổ hợp hoặc hoán vị?</label>
-                        </li>
-                      </ul>
-                    <h2 id="item-2" class="mt-4"><strong>Kiến thức giá trị: </strong></h2>
-                    <h6 class="text-secondary">Kiến thức giá trị, câu chuyện thú vị trong quá trình học tập môn học</h6>
-                    <h4 id="item-2-1"><strong>#1. Trò chơi 35</strong></h4>
+                    <h3 id="item-1"><strong>Nội dung môn học: </strong></h3>
+                    <h6 class="text-secondary">Đơn giản hóa nội dung môn học</h6>
+                    <ul>
+                        <li id="item-1-1"><strong>Chương 1: Kiểu dữ liệu trả về</strong></li>
+                        <ul>
+                            <li>Giới thiệu về các kiểu dữ liệu trả về trong lập trình (ví dụ: kiểu nguyên thủy, kiểu đối tượng, kiểu mảng,...)</li>
+                            <li>Ví dụ: <code>return int;</code> trong một hàm tính toán tổng.</li>
+                        </ul>
+                        <br>
+                    
+                        <li id="item-1-2"><strong>Chương 2: Mảng 1 chiều, mảng 2 chiều</strong></li>
+                        <ul>
+                            <li>Giới thiệu về mảng 1 chiều và 2 chiều, cách khai báo và sử dụng trong lập trình.</li>
+                            <li>Ví dụ: 
+                                <pre>
+                                int[] arr1D = {1, 2, 3}; // Mảng 1 chiều
+                                int[,] arr2D = {{1, 2}, {3, 4}}; // Mảng 2 chiều
+                                </pre>
+                            </li>
+                        </ul>
+                        <br>
+                    
+                        <li><strong>Chương 3: Độ phức tạp, cải tiến giải thuật</strong></li>
+                        <ul>
+                            <li>Giới thiệu về độ phức tạp thuật toán (Big-O), các loại độ phức tạp phổ biến.</li>
+                            <li>Ví dụ: <code>for</code> loop có độ phức tạp O(n), tìm kiếm nhị phân có độ phức tạp O(log n).</li>
+                        </ul>
+                        <br>
+                    
+                        <li><strong>Chương 4: Phương pháp duyệt</strong></li>
+                        <ul>
+                            <li>Giới thiệu về các phương pháp duyệt trong lập trình: Vét cạn, Quay lui, Đệ quy, Khử đệ quy, Duyệt có đặt cận.</li>
+                            <li>Ví dụ: 
+                                <ul>
+                                    <li>Vét cạn: Duyệt tất cả các khả năng của bài toán và tìm ra lời giải tốt nhất.</li>
+                                    <li>Quay lui: Duyệt theo cách thử và sai, quay lại nếu không tìm được lời giải đúng.</li>
+                                    <li>Đệ quy: Duyệt theo cách gọi lại chính nó với một tập con của bài toán.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <br>
+                    
+                        <li><strong>Chương 5: Quy hoạch động</strong></li>
+                        <ul>
+                            <li>Giới thiệu về quy hoạch động và các bài toán điển hình như bài toán cái túi, xâu chung dài nhất, v.v.</li>
+                            <li>Ví dụ: 
+                                <ul>
+                                    <li>Bài toán cái túi: Tìm cách chọn các vật phẩm sao cho tổng giá trị tối đa và tổng trọng lượng không vượt quá giới hạn.</li>
+                                    <li>Xâu chung dài nhất: Tìm chuỗi con chung dài nhất của hai xâu đã cho.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <br>
+                    </ul>
+                    
+                    <h3 id="item-2"><strong>Kiến thức thú vị: </strong></h3>
+                    <h6 class="text-secondary">Có thể bạn chưa biết hoặc đã biết?</h6>
+                    <h5 id="item-2-1"><strong>1. Trò chơi 35</strong></h5>
+                    <h6 class="text-secondary">Chương 5: Quy hoạch động</h6>
                     <p class="text-end">Nguồn: ThS. Trần Công Tú</p>
                     <p><strong>Đầu tiên là luật chơi:</strong> Cho các số 1, 2, 3, 4, 5 và tổng S ban đầu bằng 0. Có 2 người chơi lần lượt chọn một trong các số đã cho theo nguyên tắc không được chọn số mà người kia vừa chọn trước đó, mỗi lần ai chọn đều cộng dồn vào tổng S.</p>
                     <p>Ai làm cho tổng S lớn hơn 35 là thua.</p>
@@ -104,27 +148,23 @@
                     <p>Bạn hãy thử tự chơi với vai trò là 2 người. Hoặc chơi với một bạn nào đó để tìm ra quy luật.</p>
                     <p>Dưới đây là code bài toán C++. Bạn có thể chơi cùng với máy đã cấu hình theo từng chế độ để tìm quy luật.</p>
                     <p>Code chỗ này....</p>
-                    <div class="code-container bg-code">
-                        <div class="d-flex justify-content-end">
-                            <button class="btn btn-sm btn-primary mt-2 me-2" onclick="copyCode(this)">Copy</button>
+                    <div class="container mt-4">
+                        <div class="card">
+                          <div class="card-header d-flex justify-content-between align-items-center">
+                            <h5 class="mb-0">Code Snippet</h5>
+                            <button type="button" class="btn btn-secondary" id="copyButton"
+                                    data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="custom-tooltip"
+                                    data-bs-title="Click to copy">
+                              Custom tooltip
+                            </button>
+                          </div>
+                          <div class="card-body">
+                            <pre class="bg-light p-3 rounded"><code id="codeSnippet">console.log('Hello, world!');</code></pre>
+                          </div>
                         </div>
-                        <pre class="language-sql"><code>CREATE TABLE KhachHang (
-    IDKhachHang INT PRIMARY KEY,	-- Primary Key: IDKhachHang là khóa chính
-    Ten VARCHAR(100) NOT NULL,      -- Tên khách hàng
-    Email VARCHAR(100) UNIQUE,      -- Email là duy nhất cho mỗi khách hàng
-    SDT VARCHAR(15)                 -- Số điện thoại khách hàng
-);
-
-CREATE TABLE HoaDon (
-    IDHoaDon INT PRIMARY KEY,          -- Primary Key: IDBangHoaDon là khóa chính
-    NgayDatHang DATE NOT NULL,         -- Ngày đặt hàng
-    SoTien DECIMAL NOT NULL,           -- Số tiền của đơn hàng
-    IDKhachHang1 INT,                  -- Khóa ngoại liên kết với bảng BangKhachHang
-    FOREIGN KEY (IDKhachHang1) REFERENCES KhachHang(IDKhachHang)  -- Foreign Key: BangHoaDon tham chiếu đến bảng BangKhachHang qua khóa ngoại
-);
-                </code></pre>
-                    </div>
-                    <img class="rounded-3" src="/src/public/images/HCSDL_diagram.png" alt="Trang đầu tiên của PDF" width="100%" />
+                      </div>
+                      
                     <p>Sẽ có 2 trường hợp chính: Một là bạn đã tìm ra được quy luật của nó trước khi dùng code. Hai là bạn vẫn không hiểu và không code được thì cũng không sao đây không phải mục đích chính bài toán này.</p>
                     <p>Đây là đáp án:</p>
                     <p>Ảnh...</p>
@@ -141,18 +181,56 @@ CREATE TABLE HoaDon (
                         Không phải lúc nào người lập trình cũng tối ưu nhất về phần ứng dụng của mình. Mà cũng phải tối ưu cho <strong>người sử dụng</strong>.
                         Đặc biệt, thấy rõ trong các trò chơi. Phải có các chế độ, các mức xếp hạng từ dễ đến khó để người dùng chinh phục.
                     </p>
+                    <div class="callout-info ps-3">Một ứng dụng tạo ra phải đặt <strong>người dùng</strong> là yếu tố đầu tiên.</div>
                     một số bài toán hay ho hơn cái túi, chuỗi....
+                    <h5 id="item-2-1"><strong>2. Đệ quy</strong></h5>
+                    <p class="text-end">Nguồn: ThS. Trần Công Tú</p>
+                    <p><strong>Đầu tiên là luật chơi:</strong> Cho các số 1, 2, 3, 4, 5 và tổng S ban đầu bằng 0. Có 2 người chơi lần lượt chọn một trong các số đã cho theo nguyên tắc không được chọn số mà người kia vừa chọn trước đó, mỗi lần ai chọn đều cộng dồn vào tổng S.</p>
+                    <p>Ai làm cho tổng S lớn hơn 35 là thua.</p>
+                    <p>Yêu cầu: Lập trình cho người chơi với máy sao cho khả năng thắng của máy là cao nhất.</p>
+                    <p>Bạn hãy thử tự chơi với vai trò là 2 người. Hoặc chơi với một bạn nào đó để tìm ra quy luật.</p>
+                    <p>Dưới đây là code bài toán C++. Bạn có thể chơi cùng với máy đã cấu hình theo từng chế độ để tìm quy luật.</p>
+                    <p>Code chỗ này....</p>
+                    <div class="container mt-4">
+                        <div class="card">
+                          <div class="card-header d-flex justify-content-between align-items-center">
+                            <h5 class="mb-0">Code Snippet</h5>
+                            <button type="button" class="btn btn-secondary" id="copyButton"
+                                    data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="custom-tooltip"
+                                    data-bs-title="Click to copy">
+                              Custom tooltip
+                            </button>
+                          </div>
+                          <div class="card-body">
+                            <pre class="bg-light p-3 rounded"><code id="codeSnippet">console.log('Hello, world!');</code></pre>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    <p>Sẽ có 2 trường hợp chính: Một là bạn đã tìm ra được quy luật của nó trước khi dùng code. Hai là bạn vẫn không hiểu và không code được thì cũng không sao đây không phải mục đích chính bài toán này.</p>
+                    <p>Đây là đáp án:</p>
+                    <p>Ảnh...</p>
+                    <p>Chúng ta sẽ sử dụng bảng đáp án có sẵn. Để tạo ra bảng này cũng dễ, bạn chỉ cần đánh số tổng bên phải. Hàng ngang
+                        là con số bạn có thể đánh và chiến thắng. Chúng ta sẽ tư duy ngược lại từ 35, ví dụ 35 thì thua, 34 thì ai chọn 1 thì thắng,
+                         33 thì ai chọn 1 2 thì thắng, 32 thì ai chọn 1 2 3 thì thắng,..., 29 thì ai chọn 3 thì thắng (vì chọn 3 thì đối thủ không chọn được 3 nữa)
 
-                    <p>Giải thích: </p>
-                    <ul>
-                        <li>Bảng KhachHang và bảng HoaDon mỗi bảng đều có một khóa chính lần lượt là IDKhachHang và IDBangHoaDon.</li>
-                        <li>Khi có hóa đơn ta không cần phải tạo thêm cột thông tin của khách hàng bởi vì đã có khóa ngoại IDKhachHang1 tham chiếu về bảng KhachHang.</li>
-                        <li>Email không được trùng lặp, Tên không được rỗng.</li>
-                    </ul>
-                    <p>Toàn bộ quá trình trên thực hiện tốt sẽ đảm bảo tính <strong>toàn vẹn</strong> của dữ liệu.</p>
-                    <div class="callout-primary ps-3">Một ứng dụng tạo ra phải đặt <strong>người dùng</strong> là yếu tố đầu tiên.</div>
-                    <h4 id="item-2-2"><strong>#2. Đệ quy Fibonacci</strong></h4>
-                    <p>.....................</p>
+                    </p>
+                    <p>Vậy vấn đề được nhận ra, nếu máy là người đi trước mà tối ưu nhất thì khi máy đánh 1 2 3 đầu tiên và theo
+                        quy luật của bảng đáp án thì sẽ luôn thắng.
+                    </p>
+                    <p>Nhưng không dừng lại ở đó, nếu bạn thấy trong code chúng ta có 3 chế độ dễ, trung bình, khó (Chỉ đơn giản tới
+                        mức tổng vượt qua mức bao nhiêu thì lúc đó máy sẽ tra bảng đáp án). Vậy nó để làm gì?
+                        Không phải lúc nào người lập trình cũng tối ưu nhất về phần ứng dụng của mình. Mà cũng phải tối ưu cho <strong>người sử dụng</strong>.
+                        Đặc biệt, thấy rõ trong các trò chơi. Phải có các chế độ, các mức xếp hạng từ dễ đến khó để người dùng chinh phục.
+                    </p>
+                    <div class="callout-info ps-3">Một ứng dụng tạo ra phải đặt <strong>người dùng</strong> là yếu tố đầu tiên.</div>
+                    <h3 id="item-3"><strong>Mẹo học hiệu quả: </strong></h3>
+                    <div class="callout-warning ps-3">Đối với dạng bài lý thuyết thì tùy theo giáo trình của trường hay nơi bạn đang theo học. 
+                        Còn riêng về các dạng bài tập thì phương pháp hiệu quả nhất chỉ có thể là <strong>code nhiều, luyện tập nhiều.</strong>
+                         Cứ làm nhiều sẽ hiểu cách hoạt động của bài toán đó.
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -161,17 +239,23 @@ CREATE TABLE HoaDon (
             <div class="row sticky-top pt-6">
                     <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
                         <nav class="nav nav-pills flex-column">
-                            <a class="nav-link" href="#item-1">Mục tiêu học tập:</a>
+                            <a class="nav-link" href="#item-1">Nội dung môn học:</a>
+                            <nav class="nav nav-pills flex-column">
+                                <a class="nav-link ms-3 my-1" href="#item-1-1">Chương 1: Hệ thống số</a>
+                                <a class="nav-link ms-3 my-1" href="#item-1-2">Chương 2: Lưu đồ khối</a>
+                            </nav>
                             <a class="nav-link" href="#item-2">Kiến thức thú vị</a>
                             <nav class="nav nav-pills flex-column">
-                                <a class="nav-link ms-3 my-1" href="#item-2-1">1. Primary key, Foreign Key, Unique và Not Null</a>
-                                <a class="nav-link ms-3 my-1" href="#item-2-2">2. Thứ tự thực hiện lệnh</a>
+                                <a class="nav-link ms-3 my-1" href="#item-2-1">1. Trò chơi 35</a>
+                                <a class="nav-link ms-3 my-1" href="#item-2-2">2. Trò chơi abcxyz</a>
                             </nav>
+                            <a class="nav-link" href="#item-3">Mẹo học hiệu quả</a>
                         </nav>
                     </nav>
+
             </div>
         </div>
-        <!-- Footer (Không có đụng gì vào) -->
+        <!-- Footer -->
         <div class="row" style="background-color: #282a35">
             <div class="col-sm-2 mt-5"></div>
             <div class="col-sm-4 mt-5">
@@ -231,9 +315,32 @@ CREATE TABLE HoaDon (
                 </div>
             </div>
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="/src/public/js/prism.js"></script>
-        <script src="/src/public/js/script.js"></script>
+        <script>
+            document.getElementById("copyButton").addEventListener("click", function () {
+              // Lấy đoạn mã code
+              const codeSnippet = document.getElementById("codeSnippet").textContent;
+          
+              // Tạo một phần tử textarea ẩn
+              const textarea = document.createElement("textarea");
+              textarea.value = codeSnippet;
+              document.body.appendChild(textarea);
+          
+              // Chọn và sao chép nội dung
+              textarea.select();
+              document.execCommand("copy");
+          
+              // Xóa phần tử textarea ẩn
+              document.body.removeChild(textarea);
+          
+              // Hiển thị thông báo "Copied!" trên nút
+              const copyStatus = document.getElementById("copyStatus");
+              copyStatus.style.display = "inline"; // Hiển thị thông báo nhỏ
+              setTimeout(function() {
+                copyStatus.style.display = "none"; // Ẩn thông báo sau 2 giây
+              }, 2000);
+            });
+          </script>
+                    
 </body>
 
 </html>

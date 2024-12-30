@@ -12,34 +12,29 @@ include 'partials/header.php';
                 tích,
                 trực quan hóa, đưa ra các insights.</p> -->
         <p class="text-center mb-4 border-bottom pb-4 border-dark">Ngôn ngữ lập trình, kỹ năng, cấp bậc, vị trí,... theo <strong>thời gian thực</strong>.</p>
+        <img class="rounded-3" src="/public/images/ikigai.jpg" alt="Trang đầu tiên của PDF" width="100%" />
         <h3>Ngôn ngữ lập trình</h3>
-        <div class="d-flex flex-wrap justify-content-center align-items-center bg-white border border-3 rounded-3 pt-3 pb-3 m-3">
-            <?php foreach ($lang as $blog): ?>
-                <!-- Thay vì dùng form, chúng ta dùng thẻ <a> để chuyển hướng đến trang chi tiết blog -->
-                <a
-                    class="btn btn-outline-primary m-1 text-decoration-none text-center"
-                    href="learn.php?action=blog&type=language_market&id=<?php echo htmlspecialchars($blog['id']); ?>"
-                    style="width: 20rem;">
-                    <?php echo htmlspecialchars($blog['title']); ?>
-                </a>
-            <?php endforeach; ?>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Cấp bậc
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" onclick="changeImage('page_5')">page_5</a></li>
+                <li><a class="dropdown-item" onclick="changeImage('page_6')">page_6</a></li>
+                <li><a class="dropdown-item" onclick="changeImage('page_7')">page_7</a></li>
+            </ul>
         </div>
+
+        <img id="pageImage" class="rounded-3" src="/public/images/page_5.png" alt="Trang đầu tiên của PDF" width="100%" />
+
+        <h3>Kỹ năng</h3>
+        <img class="rounded-3" src="/public/images/page_5.png" alt="Trang đầu tiên của PDF" width="100%" />
         <h3>Vị trí</h3>
-        <div class="d-flex flex-wrap justify-content-center align-items-center bg-white border border-3 rounded-3 pt-3 pb-3 m-3">
-            <?php foreach ($poi as $blog): ?>
-                <!-- Thay vì dùng form, chúng ta dùng thẻ <a> để chuyển hướng đến trang chi tiết blog -->
-                <a
-                    class="btn btn-outline-primary m-1 text-decoration-none text-center"
-                    href="learn.php?action=blog&type=position_market&id=<?php echo htmlspecialchars($blog['id']); ?>"
-                    style="width: 20rem;">
-                    <?php echo htmlspecialchars($blog['title']); ?>
-                </a>
-            <?php endforeach; ?>
-        </div>
+        <img class="rounded-3" src="/public/images/page_6.png" alt="Trang đầu tiên của PDF" width="100%" />
         <h4 class="mt-3 p-2 text-center">Nếu bạn lần đầu đến với Thị Trường IT</h4>
         <p class="text-center ms-5 me-5 mb-4 border-bottom pb-4 border-dark"> Một số hướng dẫn cho người mới bắt đầu và các câu hỏi thường gặp.</p>
         <div class="accordion mb-5" id="accordionPanelsStayOpenExample">
-        <div class="accordion-item">
+            <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
                         <strong>Thị Trường IT</strong>
@@ -65,4 +60,10 @@ include 'partials/header.php';
     <div class="col-sm-2 bg-gray">
     </div>
 </div>
+<script>
+    function changeImage(page) {
+    // Cập nhật lại nguồn ảnh tùy theo trang
+    document.getElementById('pageImage').src = `/public/images/${page}.png`;
+}
+</script>
 <?php include 'partials/footer.php'; ?>

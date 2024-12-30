@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Display Example</title>
-    <link rel="stylesheet" href="/public/css/prism.css">
-    <link rel="stylesheet" href="/public/css/custom.css">
+    <link rel="stylesheet" href="/src/public/css/prism.css">
+    <link rel="stylesheet" href="/src/public/css/custom.css">
 
 </head>
 
@@ -17,17 +17,21 @@
         <div class="d-flex justify-content-end">
             <button class="btn btn-primary mt-2 me-2" onclick="copyCode(this)">Copy</button>
         </div>
-        <pre class="language-html"><code>#include &lt;stdio.h&gt;
-int main() {
-    int n = 28, m = 4;
-    if ((n % m) == 0) {
-        printf("Chia het\n");
-    }
-    if ((n % m) != 0) {
-        printf("Khong chia het\n");
-    }
-    return 0;
-}
+        <pre class="language-sql"><code>
+            CREATE TABLE BangKhachHang (
+IDKhachHang INT PRIMARY KEY,	-- Primary Key: IDKhachHang là khóa chính
+Ten VARCHAR(100) NOT NULL,      -- Tên khách hàng
+Email VARCHAR(100) UNIQUE,      -- Email là duy nhất cho mỗi khách hàng
+SDT VARCHAR(15)                 -- Số điện thoại khách hàng
+);
+
+CREATE TABLE BangHoaDon (
+IDBangHoaDon INT PRIMARY KEY,          -- Primary Key: IDBangHoaDon là khóa chính
+NgayDatHang DATE NOT NULL,             -- Ngày đặt hàng
+SoTien DECIMAL NOT NULL,        -- Số tiền của đơn hàng
+IDKhachHang1 INT,                       -- Khóa ngoại liên kết với bảng BangKhachHang
+FOREIGN KEY (IDKhachHang1) REFERENCES BangKhachHang(IDKhachHang)  -- Foreign Key: BangHoaDon tham chiếu đến bảng BangKhachHang qua khóa ngoại
+);
 </code></pre>
     </div>
     <h1>Code Display Example</h1>
@@ -35,7 +39,7 @@ int main() {
         <div class="d-flex justify-content-end">
             <button class="btn btn-primary mt-2 me-2" onclick="copyCode(this)">Copy</button>
         </div>
-        <pre class="language-html"><code>#include &lt;stdio.h&gt;
+        <pre class="language-c"><code>#include &lt;stdio.h&gt;
 int main() {
     int n = 28, abc;
     if ((n % m) == 0) {
@@ -49,7 +53,7 @@ int main() {
 </code></pre>
     </div>
 
-    <script src="/public/js/prism.js"></script>
+    <script src="/src/public/js/prism.js"></script>
     <script>
 function copyCode(button) {
     // Tìm phần tử <pre> chứa <code>

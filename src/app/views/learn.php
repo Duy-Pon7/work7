@@ -46,7 +46,7 @@ include 'partials/header.php';
                 </h2>
                 <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
                     <div class="accordion-body">
-                        <i>"Thứ đáng sợ nhất là bạn không biết bắt đầu từ đâu và bắt đầu như thế nào."</i><br><br>
+                        <i>"Thứ đáng sợ nhất là không biết bắt đầu từ đâu và bắt đầu như thế nào."</i><br><br>
                         Nơi chia sẻ mục tiêu <strong>cơ bản</strong>, kiến thức <strong>giá trị</strong>, câu chuyện <strong>thú vị</strong> thông qua những môn học ngành IT. Mang đến cho mọi người
                         cái nhìn tổng quan nhất về ngành.
                         <br><br>
