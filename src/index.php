@@ -9,7 +9,7 @@
                 tích,
                 trực quan hóa, đưa ra các insights.</p> -->
         <p class="text-center ms-5 me-5 mb-4 border-bottom pb-4 border-dark"> Bước đệm công nghệ, công việc và nhiều thứ khác.</p>
-        <img class="rounded-3" src="/public/images/page_5.png" alt="Trang đầu tiên của PDF" width="100%" />
+        <img class="rounded-3" src="/public/images/page_1.png" alt="Trang đầu tiên của PDF" width="100%" />
     </div>
     <div class="col-sm-2 bg-gray">
     </div>
@@ -50,7 +50,7 @@
                     <img src="/public/images/undraw_font_cooz.png" class="card-img-top" alt="..."
                         style="object-fit: contain; height: 200px; width: 100%;">
                     <div class="card-body d-flex flex-column">
-                        <h5 class="card-title d-flex justify-content-center">Đám mây từ</h5>
+                        <h5 class="card-title d-flex justify-content-center">Word Cloud Generator</h5>
                         <p class="card-text text-center">Hình ảnh trực quan các từ ngữ.</p><br>
                         <p class="card-text text-center"><em>(Mọi người)</em></p>
                         <a href="/app/views/word_cloud.php" class="btn btn-outline-dark mt-auto d-flex justify-content-center">Chi tiết</a>
@@ -110,11 +110,11 @@
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                        <strong>Đám Mây Từ</strong>
+                        <strong>Word Cloud Generator</strong>
                     </button>
                 </h2>
                 <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-                    <div class="accordion-body">
+                <div class="accordion-body">
                         Đám mây từ (Word cloud generator) giúp tạo ra một hình ảnh trực quan, thể hiện tần suất xuất hiện của các từ trong một tập dữ liệu.
                         <br><br>
                         Đối tượng: Tất cả mọi người
@@ -125,10 +125,13 @@
                         <ul>
                             <li>Bước 1: Vào các trang tuyển dụng, tìm kiếm "ngành nghề, lĩnh vực" mà mình muốn tìm hiểu.</li>
                             <li>Bước 2: Vào phần "Yêu cầu ứng viên" sao chép nội dung của nhiều đơn tuyển dụng.</li>
-                            <li>Bước 3: Dán vào word cloud generator để xem thử các từ khóa phổ biến và quan trọng.</li>
+                            <li>Bước 3: Dán vào word cloud generator để xem thử các <strong>từ khóa phổ biến và quan trọng</strong>.</li>
                             <li>Bước 4: Phân tích các từ xuất hiện nhiều trong word cloud để nhận diện các kỹ năng chính và xu hướng yêu cầu trong ngành.</li>
                             <li>Bước 5: Dựa trên kết quả phân tích, lập kế hoạch học hỏi và phát triển các kỹ năng cần thiết để đáp ứng yêu cầu công việc trong ngành nghề đó.</li>
+                            <li>Bước 6: Thiết kế cv, resume. Copy dán vào word cloud và so sách với kế quả phân tích trước sao cho phù hợp nhất.</li>
+                            <li>Bước 7: Tiếp tục học tập, phát triển và chờ đợi những cơ hội bước đến.</li>
                         </ul>
+                        <p>Chúc mọi người tìm được công việc phù hợp cho mình! 🍀</p>
                     </div>
                 </div>
             </div>

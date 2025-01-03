@@ -12,25 +12,43 @@ include 'partials/header.php';
                 tích,
                 trực quan hóa, đưa ra các insights.</p> -->
         <p class="text-center mb-4 border-bottom pb-4 border-dark">Ngôn ngữ lập trình, kỹ năng, cấp bậc, vị trí,... theo <strong>thời gian thực</strong>.</p>
-        <img class="rounded-3" src="/public/images/ikigai.jpg" alt="Trang đầu tiên của PDF" width="100%" />
+        <img class="rounded-3 mb-4" src="/public/images/ikigaiww7.png" alt="Trang đầu tiên của PDF" width="100%" />
         <h3>Ngôn ngữ lập trình</h3>
-        <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Cấp bậc
-            </button>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" onclick="changeImage('page_5')">page_5</a></li>
-                <li><a class="dropdown-item" onclick="changeImage('page_6')">page_6</a></li>
-                <li><a class="dropdown-item" onclick="changeImage('page_7')">page_7</a></li>
-            </ul>
+        <div class="d-flex justify-content-end">
+
+            <div class="form-group ">
+                <select class="form-select" id="levelSelect1" aria-label="Cấp bậc" onchange="changeImage(this.value, 'pageImage1')">
+                    <option value="page_1">All</option>
+                    <option value="page_2">Fresher</option>
+                    <option value="page_3">Junior</option>
+                    <option value="page_4">Senior</option>
+                    <option value="page_5">Manager</option>
+                </select>
+            </div>
+
         </div>
 
-        <img id="pageImage" class="rounded-3" src="/public/images/page_5.png" alt="Trang đầu tiên của PDF" width="100%" />
+
+        <img id="pageImage1" class="rounded-3" src="/public/images/page_1.png" alt="Trang đầu tiên của PDF" width="100%" />
 
         <h3>Kỹ năng</h3>
-        <img class="rounded-3" src="/public/images/page_5.png" alt="Trang đầu tiên của PDF" width="100%" />
+        <div class="d-flex justify-content-end">
+
+            <div class="form-group">
+                <select class="form-select" id="levelSelect2" aria-label="Cấp bậc" onchange="changeImage(this.value, 'pageImage2')">
+                    <option value="page_6">All</option>
+                    <option value="page_7">Fresher</option>
+                    <option value="page_8">Junior</option>
+                    <option value="page_9">Senior</option>
+                    <option value="page_10">Manager</option>
+                </select>
+            </div>
+
+        </div>
+        <img id="pageImage2" class="rounded-3" src="/public/images/page_6.png" alt="Trang đầu tiên của PDF" width="100%" />
         <h3>Vị trí</h3>
-        <img class="rounded-3" src="/public/images/page_6.png" alt="Trang đầu tiên của PDF" width="100%" />
+        <img class="rounded-3" src="/public/images/page_11.png" alt="Trang đầu tiên của PDF" width="100%" />
+        <h3>Các bài phân tích</h3>
         <h4 class="mt-3 p-2 text-center">Nếu bạn lần đầu đến với Thị Trường IT</h4>
         <p class="text-center ms-5 me-5 mb-4 border-bottom pb-4 border-dark"> Một số hướng dẫn cho người mới bắt đầu và các câu hỏi thường gặp.</p>
         <div class="accordion mb-5" id="accordionPanelsStayOpenExample">
@@ -61,9 +79,17 @@ include 'partials/header.php';
     </div>
 </div>
 <script>
-    function changeImage(page) {
-    // Cập nhật lại nguồn ảnh tùy theo trang
-    document.getElementById('pageImage').src = `/public/images/${page}.png`;
+function changeImage(page, imageId) {
+    // Lấy phần tử hình ảnh bằng ID được truyền vào
+    const imgElement = document.getElementById(imageId);
+
+    if (imgElement) {
+        // Cập nhật nguồn ảnh
+        imgElement.src = `/public/images/${page}.png`;
+    } else {
+        console.error(`Không tìm thấy phần tử có ID "${imageId}"`);
+    }
 }
+
 </script>
 <?php include 'partials/footer.php'; ?>
