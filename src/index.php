@@ -61,7 +61,7 @@
         <h4 class="mt-3 p-2 text-center">Nếu bạn lần đầu đến với Work7</h4>
         <p class="text-center ms-5 me-5 mb-4 border-bottom pb-4 border-dark"> Một số hướng dẫn cho người mới bắt đầu và các câu hỏi thường gặp.</p>
         <div class="accordion mb-5" id="accordionPanelsStayOpenExample">
-        <div class="accordion-item">
+            <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
                         <strong>Học Tập IT</strong>
@@ -73,7 +73,7 @@
                         Nơi chia sẻ mục tiêu <strong>cơ bản</strong>, kiến thức <strong>giá trị</strong>, câu chuyện <strong>thú vị</strong> thông qua những môn học ngành IT. Mang đến cho mọi người
                         cái nhìn tổng quan nhất về ngành.
                         <br><br>
-                        Nội dụng:
+                        Nội dung:
                         <ul>
                             <li>Mục tiêu học tập</li>
                             <li>Kiến thức, câu chuyện thú vị trong trong môn học.</li>
@@ -97,6 +97,7 @@
                     <div class="accordion-body">
                         Sử dụng <strong>web scraping</strong> để cung cấp báo cáo và nhận định, giúp mọi người đưa ra những quyết định chính
                         xác hơn.
+                        <i>Dữ liệu sẽ được cập nhật hàng tuần.</i>
                         <br><br>
                         Đối tượng:
                         <ul>
@@ -114,7 +115,7 @@
                     </button>
                 </h2>
                 <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-                <div class="accordion-body">
+                    <div class="accordion-body">
                         Đám mây từ (Word cloud generator) giúp tạo ra một hình ảnh trực quan, thể hiện tần suất xuất hiện của các từ trong một tập dữ liệu.
                         <br><br>
                         Đối tượng: Tất cả mọi người
@@ -135,6 +136,19 @@
                     </div>
                 </div>
             </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                        <strong>Nếu bạn thấy thích thú về Work7</strong>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        Đừng quên theo dõi các trang mạng xã hội của Work7 để không bỏ lỡ những thông tin và bản cập nhật mới nhất từ Work7! ❤️
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
     <div class="col-sm-2 bg-gray">

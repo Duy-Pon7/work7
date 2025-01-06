@@ -19,18 +19,18 @@ include 'partials/header.php';
                 <!-- Sử dụng thẻ <a> để dẫn đến trang chi tiết blog -->
                 <a
                     class="btn btn-outline-primary m-1 text-decoration-none text-center"
-                    href="learn.php?action=blog&type=university&id=<?php echo htmlspecialchars($blog['id']); ?>"
+                    href="learn?action=blog&type=university&id=<?php echo htmlspecialchars($blog['id']); ?>"
                     style="width: 20rem;">
                     <?php echo htmlspecialchars($blog['id']) . '. ' . htmlspecialchars($blog['title']); ?>
                 </a>
             <?php endforeach; ?>
         </div>
 
-        <h3 class="mt-2">Mẹo và thủ thuật</h3>
+        <!-- <h3 class="mt-2">Mẹo và thủ thuật</h3> -->
         <div class="pt-3 pb-3 mb-3">
             <?php foreach ($mind as $blog): ?>
                 <!-- Thay vì dùng form, chúng ta dùng thẻ <a> để chuyển hướng đến trang chi tiết blog -->
-                <a class="nav-link m-1 d-block border-bottom border-1" href="learn.php?action=blog&type=mindset&id=<?php echo htmlspecialchars($blog['id']); ?>">
+                <a class="nav-link m-1 d-block border-bottom border-1" href="learn?action=blog&type=mindset&id=<?php echo htmlspecialchars($blog['id']); ?>">
                     <?php echo $blog['title']; ?>
                 </a>
             <?php endforeach; ?>
@@ -50,7 +50,7 @@ include 'partials/header.php';
                         Nơi chia sẻ mục tiêu <strong>cơ bản</strong>, kiến thức <strong>giá trị</strong>, câu chuyện <strong>thú vị</strong> thông qua những môn học ngành IT. Mang đến cho mọi người
                         cái nhìn tổng quan nhất về ngành.
                         <br><br>
-                        Nội dụng:
+                        Nội dung:
                         <ul>
                             <li>Mục tiêu học tập</li>
                             <li>Kiến thức, câu chuyện thú vị trong trong môn học.</li>

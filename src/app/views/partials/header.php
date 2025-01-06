@@ -13,7 +13,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-black">
         <div class="container-fluid">
-            <a class="navbar-brand text-light" href="/index.php">
+            <a class="navbar-brand text-light" href="/home">
             <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="29.5" y="0.5" width="29" height="29" rx="2.5" transform="rotate(90 29.5 0.5)" fill="white"/>
 <rect x="29.5" y="0.5" width="29" height="29" rx="2.5" transform="rotate(90 29.5 0.5)" stroke="white"/>
@@ -30,13 +30,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link text-gray" href="/public/learn.php">Học Tập IT</a>
+                        <a class="nav-link text-gray" href="/learn">Học Tập IT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-gray" href="/public/market.php">Thị Trường IT</a>
+                        <a class="nav-link text-gray" href="/market">Thị Trường IT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-gray" href="/app/views/word_cloud.php">Word Cloud Generator</a>
+                        <a class="nav-link text-gray" href="/word_cloud">Word Cloud Generator</a>
                     </li>
                 </ul>
                 <a class="text-gray btn btn-outline-warning" target="_blank" href="https://forms.gle/fHsS35u5ucLwkFZw9">Trao đổi</a>
