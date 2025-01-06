@@ -1,18 +1,17 @@
-version: "3.8"
-
 services:
   server:
     build:
       context: .
     ports:
-      - "80:80"  # Mở port 80 của container ra port 9000 trên host
+      - "80:80"  # Mở port 80 của container
+      - "443:443"
     volumes:
       - ./src:/var/www/html  # Gắn kết thư mục source code vào container
     environment:
       - DB_HOST=db  # Tên service DB từ docker-compose
       - DB_NAME=work7  # Tên cơ sở dữ liệu mới
       - DB_USER=root  # Tên người dùng database
-      - DB_PASSWORD=rootpassword  # Mật khẩu cơ sở dữ liệu trực tiếp
+      - DB_PASSWORD=Pon46321@  # Mật khẩu cơ sở dữ liệu trực tiếp
     depends_on:
       - db  # Đảm bảo DB khởi động trước
 
@@ -20,7 +19,7 @@ services:
     image: mariadb
     restart: always
     environment:
-      - MARIADB_ROOT_PASSWORD=rootpassword  # Mật khẩu root cho MariaDB
+      - MARIADB_ROOT_PASSWORD=Pon46321@  # Mật khẩu root cho MariaDB
       - MARIADB_DATABASE=work7  # Tên cơ sở dữ liệu ban đầu thay vì 'example'
     volumes:
       - db-data:/var/lib/mysql  # Volume lưu trữ dữ liệu của MariaDB
@@ -35,7 +34,8 @@ services:
   phpmyadmin:
     image: phpmyadmin
     ports:
-      - "8081:80"  # Mở giao diện phpMyAdmin trên port 8080
+      - "8080:80"    # Truy cập qua http://localhost:8080
+      - "8443:443"   # Truy cập qua https://localhost:8443
     environment:
       - PMA_HOST=db  # Tên service của MariaDB trong docker-compose
     depends_on:

@@ -15,7 +15,7 @@ include 'partials/header.php';
         <!-- Checkbox chọn Key word = 2 -->
         <div class="mb-4 text-center">
             <label for="ngram-checkbox" class="form-label">
-                <input type="checkbox" id="ngram-checkbox"> Key word = 2
+                <input type="checkbox" id="ngram-checkbox"> Key_word = 2
             </label>
             <label for="remove-stopwords-checkbox" class="form-label">
                 <input type="checkbox" id="remove-stopwords-checkbox"> Loại bỏ từ không có nghĩa
@@ -83,10 +83,13 @@ include 'partials/header.php';
                         <ul>
                             <li>Bước 1: Vào các trang tuyển dụng, tìm kiếm "ngành nghề, lĩnh vực" mà mình muốn tìm hiểu.</li>
                             <li>Bước 2: Vào phần "Yêu cầu ứng viên" sao chép nội dung của nhiều đơn tuyển dụng.</li>
-                            <li>Bước 3: Dán vào word cloud generator để xem thử các từ khóa phổ biến và quan trọng.</li>
+                            <li>Bước 3: Dán vào word cloud generator để xem thử các <strong>từ khóa phổ biến và quan trọng</strong>.</li>
                             <li>Bước 4: Phân tích các từ xuất hiện nhiều trong word cloud để nhận diện các kỹ năng chính và xu hướng yêu cầu trong ngành.</li>
                             <li>Bước 5: Dựa trên kết quả phân tích, lập kế hoạch học hỏi và phát triển các kỹ năng cần thiết để đáp ứng yêu cầu công việc trong ngành nghề đó.</li>
+                            <li>Bước 6: Thiết kế cv, resume. Copy dán vào word cloud và so sách với kế quả phân tích trước sao cho phù hợp nhất.</li>
+                            <li>Bước 7: Tiếp tục học tập, phát triển và chờ đợi những cơ hội bước đến.</li>
                         </ul>
+                        <p>Chúc mọi người tìm được công việc phù hợp cho mình! 🍀</p>
                     </div>
                 </div>
             </div>
@@ -113,7 +116,7 @@ include 'partials/header.php';
         "tham", "gia", "để", "liệu", "viên", "biết", "sử", "vào", "yêu", "cầu", "bảo", "hợp",
         "hiện", "lý", "năng", "thành", "thiết", "kế", "khai", "theo", "dự", "án", "tích", "tối",
         "ưu", "thực", "nghệ", "dữ", "khác", "hiệu", "cơ", "kiến", "cụ", "quản", "mô", "hình",
-        "duy", "trì", "ty", "hóa", "hỗ", "trợ", "vụ", "nhóm", " có", "và",
+        "duy", "trì", "ty", "hóa", "hỗ", "trợ", "vụ", "nhóm", " có", "và", "nhiều",
     ];
 
     // Lắng nghe sự kiện nhấn nút "Tạo Word Cloud"
