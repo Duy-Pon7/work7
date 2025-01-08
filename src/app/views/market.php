@@ -13,7 +13,7 @@ include 'partials/header.php';
                 trực quan hóa, đưa ra các insights.</p> -->
         <p class="text-center mb-4 border-bottom pb-4 border-dark">Ngôn ngữ lập trình, kỹ năng, cấp bậc, vị trí,... theo <strong>thời gian thực</strong>.</p>
         <img class="rounded-3 mb-4" src="/public/images/ikigaiww7.png" alt="Trang đầu tiên của PDF" width="100%" />
-        <p class=""><i>Thời gian hiện tại ít hoạt động tuyển dụng, nên dữ liệu thống kê hiện tại là tháng 10/2024.</i></p>
+        <p class=""><i>Ở thời điểm hiện tại có ít hoạt động tuyển dụng nên dữ liệu bên dưới được thống kê từ tháng 10/2024.</i></p>
         <h3>Ngôn ngữ lập trình</h3>
         <div class="d-flex justify-content-end">
 

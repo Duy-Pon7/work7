@@ -35,7 +35,6 @@ services:
     image: phpmyadmin
     ports:
       - "8080:80"    # Truy cập qua http://localhost:8080
-      - "8443:443"   # Truy cập qua https://localhost:8443
     environment:
       - PMA_HOST=db  # Tên service của MariaDB trong docker-compose
     depends_on:

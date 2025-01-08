@@ -28,7 +28,7 @@
                         <h5 class="card-title d-flex justify-content-center">Học tập IT</h5>
                         <p class="card-text text-center">Mục tiêu, kiến thức, câu chuyện trong từng môn học IT.</p>
                         <p class="card-text text-center"><em>(Học sinh, sinh viên)</em></p>
-                        <a href="/public/learn.php" class="btn btn-outline-dark mt-auto d-flex justify-content-center">Chi tiết</a>
+                        <a href="/learn" class="btn btn-outline-dark mt-auto d-flex justify-content-center">Chi tiết</a>
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@
                         <h5 class="card-title d-flex justify-content-center">Thị trường IT</h5>
                         <p class="card-text text-center">Ngôn ngữ lập trình, kỹ năng, cấp bậc, vị trí,... theo <strong>thời gian thực</strong>.</p>
                         <p class="card-text text-center"><em>(Sinh viên, người đi làm)</em></p>
-                        <a href="/public/market.php" class="btn btn-outline-dark mt-auto d-flex justify-content-center">Chi tiết</a>
+                        <a href="/market" class="btn btn-outline-dark mt-auto d-flex justify-content-center">Chi tiết</a>
                     </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@
                         <h5 class="card-title d-flex justify-content-center">Word Cloud Generator</h5>
                         <p class="card-text text-center">Hình ảnh trực quan các từ ngữ.</p><br>
                         <p class="card-text text-center"><em>(Mọi người)</em></p>
-                        <a href="/app/views/word_cloud.php" class="btn btn-outline-dark mt-auto d-flex justify-content-center">Chi tiết</a>
+                        <a href="/word_cloud" class="btn btn-outline-dark mt-auto d-flex justify-content-center">Chi tiết</a>
                     </div>
                 </div>
             </div>
@@ -144,7 +144,7 @@
                 </h2>
                 <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
                     <div class="accordion-body">
-                        Đừng quên theo dõi các trang mạng xã hội của Work7 để không bỏ lỡ những thông tin và bản cập nhật mới nhất từ Work7! ❤️
+                        Đừng quên theo dõi fanpage Work7 để không bỏ lỡ những thông tin và bản cập nhật mới nhất! ❤️
                     </div>
                 </div>
             </div>
