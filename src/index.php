@@ -144,7 +144,8 @@
                 </h2>
                 <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
                     <div class="accordion-body">
-                        Đừng quên theo dõi fanpage Work7 để không bỏ lỡ những thông tin và bản cập nhật mới nhất! ❤️
+                        Đừng quên theo dõi fanpage Work7 để không bỏ lỡ những thông tin và bản cập nhật mới nhất!
+                        Nó miễn phí nhưng giúp ích mình rất nhiều ❤️
                     </div>
                 </div>
             </div>
