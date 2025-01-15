@@ -12,8 +12,12 @@ class BlogController {
     }
     public function showHomeMarket() {
         $model = new BlogModel();
-        $poi = $model->getAllPoiMar();
-        $lang = $model->getAllLangMar();
+        $mar = $model->getAllMar();
+        include '../app/views/market.php';  // Hiển thị trang chủ
+    }
+    public function showHomeJob() {
+        $model = new BlogModel();
+        $job = $model->getAlljob();
         include '../app/views/market.php';  // Hiển thị trang chủ
     }
 

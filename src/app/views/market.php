@@ -44,21 +44,29 @@ include 'partials/header.php';
                     <option value="page_10">Manager</option>
                 </select>
             </div>
-
         </div>
         <img id="pageImage2" class="rounded-3" src="/public/images/page_6.png" alt="Trang đầu tiên của PDF" width="100%" />
+        <h3>Nơi làm việc</h3>
+        <div class="d-flex justify-content-end">
+
+            <div class="form-group">
+                <select class="form-select" id="levelSelect3" aria-label="Cấp bậc" onchange="changeImage(this.value, 'pageImage3')">
+                    <option value="page_11">At office</option>
+                    <option value="page_12">Hybrid</option>
+                    <option value="page_13">Remote</option>
+                </select>
+            </div>
+        </div>
+        <img id="pageImage3" class="rounded-3" src="/public/images/page_11.png" alt="Trang đầu tiên của PDF" width="100%" />
+
         <h3>Vị trí</h3>
-        <img class="rounded-3" src="/public/images/page_11.png" alt="Trang đầu tiên của PDF" width="100%" />
+        <img class="rounded-3" src="/public/images/page_14.png" alt="Trang đầu tiên của PDF" width="100%" />
         <h3>Các bài phân tích </h3>
-        <div class="d-flex flex-wrap justify-content-center align-items-center bg-white border border-3 rounded-3 pt-3 pb-3 m-3">
-        <p><i>Comming soon</i></p>
-        <?php foreach ($lang as $blog): ?>
+        <div class="pt-3 pb-3 mb-3">
+            <?php foreach ($mar as $blog): ?>
                 <!-- Thay vì dùng form, chúng ta dùng thẻ <a> để chuyển hướng đến trang chi tiết blog -->
-                <a
-                    class="btn btn-outline-primary m-1 text-decoration-none text-center"
-                    href="learn.php?action=blog&type=language_market&id=<?php echo htmlspecialchars($blog['id']); ?>"
-                    style="width: 20rem;">
-                    <?php echo htmlspecialchars($blog['title']); ?>
+                <a class="nav-link m-1 d-block border-bottom border-1" href="market?action=blog&type=market&id=<?php echo htmlspecialchars($blog['id']); ?>">
+                    <?php echo $blog['title']; ?>
                 </a>
             <?php endforeach; ?>
         </div>
