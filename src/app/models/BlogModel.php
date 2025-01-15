@@ -14,15 +14,19 @@ class BlogModel {
         $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
-    public function getAllLangMar() {
+
+    public function getAllMar() {
         global $pdo;
-        $stmt = $pdo->prepare("SELECT id, title FROM language_market");
+
+        $stmt = $pdo->prepare("SELECT id, title FROM market");
         $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
-    public function getAllPoiMar() {
+
+    public function getAllJob() {
         global $pdo;
-        $stmt = $pdo->prepare("SELECT id, title FROM position_market");
+
+        $stmt = $pdo->prepare("SELECT id, title FROM job");
         $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
@@ -31,7 +35,8 @@ class BlogModel {
         global $pdo;
     
         // Danh sách các bảng hợp lệ (có thể mở rộng nếu cần)
-        $validTables = ['university', 'mindset', 'language_market', 'position_market'];
+
+        $validTables = ['university', 'mindset', 'market', 'job'];
     
         // Kiểm tra xem tên bảng có hợp lệ không
         if (!in_array($table, $validTables)) {

@@ -25,8 +25,11 @@ include 'partials/header.php';
                 </a>
             <?php endforeach; ?>
         </div>
+        <p class=""><i>Nếu bạn là người mới bắt đầu tìm hiểu về ngành IT. Nên theo dõi theo thứ tự các môn học.</i></p>
 
-        <!-- <h3 class="mt-2">Mẹo và thủ thuật</h3> -->
+
+
+        <h3 class="mt-2">Tư duy</h3>
         <div class="pt-3 pb-3 mb-3">
             <?php foreach ($mind as $blog): ?>
                 <!-- Thay vì dùng form, chúng ta dùng thẻ <a> để chuyển hướng đến trang chi tiết blog -->
