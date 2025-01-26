@@ -4,7 +4,7 @@ require_once '../config/database.php';
 class BlogModel {
     public function getAllUni() {
         global $pdo;
-        $stmt = $pdo->prepare("SELECT id, title FROM university");
+        $stmt = $pdo->prepare("SELECT id, title, update_date FROM university");
         $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
@@ -14,18 +14,14 @@ class BlogModel {
         $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
-
     public function getAllMar() {
         global $pdo;
-
         $stmt = $pdo->prepare("SELECT id, title FROM market");
         $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
-
     public function getAllJob() {
         global $pdo;
-
         $stmt = $pdo->prepare("SELECT id, title FROM job");
         $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -35,7 +31,6 @@ class BlogModel {
         global $pdo;
     
         // Danh sách các bảng hợp lệ (có thể mở rộng nếu cần)
-
         $validTables = ['university', 'mindset', 'market', 'job'];
     
         // Kiểm tra xem tên bảng có hợp lệ không

@@ -11,7 +11,7 @@ include 'partials/header.php';
         <!-- <p class="text-center mb-4">Theo dõi thị trường IT ở Việt Nam theo <b>thời gian thực</b>. Phân
                 tích,
                 trực quan hóa, đưa ra các insights.</p> -->
-        <p class="text-center mb-4 border-bottom pb-4 border-dark">Ngôn ngữ lập trình, kỹ năng, cấp bậc, vị trí,... theo <strong>thời gian thực</strong>.</p>
+        <p class="text-center mb-4 border-bottom pb-4 border-dark">Ngôn ngữ lập trình, kỹ năng, cấp bậc, vị trí,... theo <strong>thời gian thực</strong> tại Việt Nam.</p>
         <img class="rounded-3 mb-4" src="/public/images/ikigaiww7.png" alt="Trang đầu tiên của PDF" width="100%" />
         <h3>Ngôn ngữ lập trình</h3>
         <div class="d-flex justify-content-end">
@@ -75,14 +75,14 @@ include 'partials/header.php';
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                        <strong>Thị Trường IT</strong>
+                        <strong>Thị Trường IT (Work7)</strong>
                     </button>
                 </h2>
                 <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
                     <div class="accordion-body">
-                        Sử dụng <strong>web scraping</strong> để cung cấp báo cáo và nhận định, giúp mọi người đưa ra những quyết định chính
-                        xác hơn.
-                        <i>Dữ liệu sẽ được cập nhật hàng tuần.</i>
+                        Sử dụng <strong>web scraping</strong> để thu thập dữ liệu, cung cấp báo cáo và nhận định, giúp mọi người đưa ra những quyết định chính
+                        xác hơn trong ngành IT tại <i>Việt Nam</i>.
+                        <br><i>Dữ liệu sẽ được cập nhật hàng tuần.</i>
                         <br><br>
                         Đối tượng:
                         <ul>
