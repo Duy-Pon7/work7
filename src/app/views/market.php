@@ -13,7 +13,6 @@ include 'partials/header.php';
                 trực quan hóa, đưa ra các insights.</p> -->
         <p class="text-center mb-4 border-bottom pb-4 border-dark">Ngôn ngữ lập trình, kỹ năng, cấp bậc, vị trí,... theo <strong>thời gian thực</strong>.</p>
         <img class="rounded-3 mb-4" src="/public/images/ikigaiww7.png" alt="Trang đầu tiên của PDF" width="100%" />
-        <p class=""><i>Thời gian hiện tại ít hoạt động tuyển dụng, nên dữ liệu thống kê hiện tại là tháng 10/2024.</i></p>
         <h3>Ngôn ngữ lập trình</h3>
         <div class="d-flex justify-content-end">
 
@@ -76,7 +75,7 @@ include 'partials/header.php';
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                        <strong>Thị Trường IT</strong>
+                        <strong>Thị Trường IT (Work7)</strong>
                     </button>
                 </h2>
                 <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">

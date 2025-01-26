@@ -6,7 +6,7 @@ class BlogController {
     // Hiển thị trang chủ với danh sách các blog
     public function showHomeLearn() {
         $model = new BlogModel();
-        $uni = $model->getAllUni();
+        $uni = $model->getAllUni(); //Tái sử dụng lại uni với mind (include trong view)
         $mind = $model->getAllMind();
         include '../app/views/learn.php';  // Hiển thị trang chủ
     }

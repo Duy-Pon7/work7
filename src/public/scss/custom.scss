@@ -11,6 +11,12 @@ $spacers: (
     6: $spacer * 4,
     // Thêm phần tử số 6
 );
+$position-values: (
+  0: 0,
+  50: 50%,
+  100: 100%,
+  95: 95%,
+);
 
 // Functions first
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -42,18 +48,9 @@ $spacers: (
 }
 
 .nav-link {
-    text-decoration: none; // Đảm bảo không có gạch chân mặc định
+    text-decoration: none;
+}
 
-    &:hover {
-        text-decoration: underline; // Thêm gạch chân khi rê chuột
-    }
-}
-// Base class
-.callout-primary {
-    border-left: 5px solid #dee2e6;
-    background-color: #f8f9fa; // Sửa lại cú pháp đúng
-}
-.callout-warning {
-    border-left: 5px solid #ffde7a;
-    background-color: #fffaed; // Sửa lại cú pháp đúng
+.nav-link:hover {
+    text-decoration: underline;
 }

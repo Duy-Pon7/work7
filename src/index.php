@@ -64,7 +64,7 @@
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                        <strong>Học Tập IT</strong>
+                        <strong>Học Tập IT (Work7)</strong>
                     </button>
                 </h2>
                 <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
@@ -90,7 +90,7 @@
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                        <strong>Thị Trường IT</strong>
+                        <strong>Thị Trường IT (Work7)</strong>
                     </button>
                 </h2>
                 <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
@@ -111,7 +111,7 @@
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                        <strong>Word Cloud Generator</strong>
+                        <strong>Word Cloud Generator (Work7)</strong>
                     </button>
                 </h2>
                 <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
@@ -144,7 +144,7 @@
                 </h2>
                 <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
                     <div class="accordion-body">
-                        Đừng quên theo dõi các trang mạng xã hội của Work7 để không bỏ lỡ những thông tin và bản cập nhật mới nhất từ Work7! ❤️
+                    Đừng quên theo dõi fanpage Work7 để không bỏ lỡ những thông tin và bản cập nhật mới nhất! Nó miễn phí nhưng giúp ích mình rất nhiều ❤️
                     </div>
                 </div>
             </div>

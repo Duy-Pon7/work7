@@ -4,7 +4,7 @@ require_once '../config/database.php';
 class BlogModel {
     public function getAllUni() {
         global $pdo;
-        $stmt = $pdo->prepare("SELECT id, title FROM university");
+        $stmt = $pdo->prepare("SELECT id, title, update_date FROM university");
         $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
