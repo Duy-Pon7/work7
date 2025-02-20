@@ -5,10 +5,11 @@
     </div>
     <div class="col-sm-8 bg-gray">
         <h1 class="text-center fw-bold mt-4">Work7</h1>
+        
         <!-- <p class="text-center mb-4">Theo dõi thị trường IT ở Việt Nam theo <b>thời gian thực</b>. Phân
                 tích,
                 trực quan hóa, đưa ra các insights.</p> -->
-        <p class="text-center ms-5 me-5 mb-4 border-bottom pb-4 border-dark"> Bước đệm công nghệ, công việc và nhiều thứ khác.</p>
+        <p class="text-center ms-5 me-5 mb-4 border-bottom pb-4 border-dark"> Đơn giản hóa công nghệ, công việc và nhiều thứ khác.</p>
         <img class="rounded-3" src="/public/images/page_1.png" alt="Trang đầu tiên của PDF" width="100%" />
     </div>
     <div class="col-sm-2 bg-gray">
@@ -64,7 +65,7 @@
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                        <strong>Học Tập IT (Work7)</strong>
+                        <strong>Học Tập IT</strong>
                     </button>
                 </h2>
                 <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
@@ -90,7 +91,7 @@
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                        <strong>Thị Trường IT (Work7)</strong>
+                        <strong>Thị Trường IT</strong>
                     </button>
                 </h2>
                 <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
@@ -111,7 +112,7 @@
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                        <strong>Word Cloud Generator (Work7)</strong>
+                        <strong>Word Cloud Generator</strong>
                     </button>
                 </h2>
                 <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
