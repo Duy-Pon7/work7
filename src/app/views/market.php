@@ -11,6 +11,7 @@ include 'partials/header.php';
         <!-- <p class="text-center mb-4">Theo dõi thị trường IT ở Việt Nam theo <b>thời gian thực</b>. Phân
                 tích,
                 trực quan hóa, đưa ra các insights.</p> -->
+
         <p class="text-center mb-4 border-bottom pb-4 border-dark">Ngôn ngữ lập trình, kỹ năng, cấp bậc, vị trí,... theo <strong>thời gian thực</strong> tại Việt Nam.</p>
         <img class="rounded-3 mb-4" src="/public/images/ikigaiww7.png" alt="Trang đầu tiên của PDF" width="100%" />
         <h3>Ngôn ngữ lập trình</h3>
@@ -60,6 +61,15 @@ include 'partials/header.php';
 
         <h3>Vị trí</h3>
         <img class="rounded-3" src="/public/images/page_14.png" alt="Trang đầu tiên của PDF" width="100%" />
+        <div class="d-flex justify-content-end mt-3">
+        <a class="btn btn-success" href="https://drive.google.com/drive/folders/1B0DWp7IHRQv9iCzmkCcY7gxMviTxD5f6?usp=drive_link" target="_blank">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-floppy-fill" viewBox="0 0 16 16">
+        <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0H3v5.5A1.5 1.5 0 0 0 4.5 7h7A1.5 1.5 0 0 0 13 5.5V0h.086a1.5 1.5 0 0 1 1.06.44l1.415 1.414A1.5 1.5 0 0 1 16 2.914V14.5a1.5 1.5 0 0 1-1.5 1.5H14v-5.5A1.5 1.5 0 0 0 12.5 9h-9A1.5 1.5 0 0 0 2 10.5V16h-.5A1.5 1.5 0 0 1 0 14.5z"></path>
+        <path d="M3 16h10v-5.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5zm9-16H4v5.5a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5zM9 1h2v4H9z"></path>
+    </svg>
+    Pdf thị trường IT thời gian trước
+</a>
+    </div>
         <h3>Các bài phân tích </h3>
         <div class="pt-3 pb-3 mb-3">
             <?php foreach ($mar as $blog): ?>
@@ -75,11 +85,13 @@ include 'partials/header.php';
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                        <strong>Thị Trường IT (Work7)</strong>
+
+                        <strong>Thị Trường IT</strong>
                     </button>
                 </h2>
                 <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
                     <div class="accordion-body">
+
                         Sử dụng <strong>web scraping</strong> để thu thập dữ liệu, cung cấp báo cáo và nhận định, giúp mọi người đưa ra những quyết định chính
                         xác hơn trong ngành IT tại <i>Việt Nam</i>.
                         <br><i>Dữ liệu sẽ được cập nhật hàng tuần.</i>

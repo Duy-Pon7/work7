@@ -2,6 +2,10 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^word_cloud$ /app/views/word_cloud.php [L]
+RewriteRule ^about$ /app/views/about.php [L]
+RewriteRule ^donate$ /app/views/donate.php [L]
 RewriteRule ^learn$ /public/learn.php [L]
 RewriteRule ^market$ /public/market.php [L]
+RewriteRule ^shop$ /public/shop.php [L]
+RewriteRule ^shop\.php$ /public/shop.php [L]
 RewriteRule ^home$ /index.php [L]
