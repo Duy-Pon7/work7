@@ -2,8 +2,8 @@
 Fanpage: https://www.facebook.com/worklife7
 # 1. Giới thiệu
 Dự án nhằm mục đích giúp học sinh, sinh viên tiếp cận dễ dàng hơn với kiến thức tại các trường đại học.
-![image_alt]([src/public/images/Screenshot 2025-03-17 114500.png](https://github.com/Duy-Pon7/work7/blob/7658d2e87adfccbe654fef812b5b1cab292f344b/src/public/images/Screenshot%202025-03-17%20114500.png))
-![image_alt]([src/public/images/Screenshot 2025-03-17 114520.png](https://github.com/Duy-Pon7/work7/blob/7658d2e87adfccbe654fef812b5b1cab292f344b/src/public/images/Screenshot%202025-03-17%20114520.png))
+!([src/public/images/Screenshot 2025-03-17 114500.png](https://github.com/Duy-Pon7/work7/blob/7658d2e87adfccbe654fef812b5b1cab292f344b/src/public/images/Screenshot%202025-03-17%20114500.png))
+![src/public/images/Screenshot 2025-03-17 114520.png](https://github.com/Duy-Pon7/work7/blob/7658d2e87adfccbe654fef812b5b1cab292f344b/src/public/images/Screenshot%202025-03-17%20114520.png)
 # 2. Khó khăn
 Trình bày dạng blog khó tiếp cận người dùng.
 Chi phí duy trì dự án.
