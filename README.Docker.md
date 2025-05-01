@@ -23,7 +23,7 @@ docs for more detail on building and pushing.
 
 abc
 
-NHOM-4 abc
+NHOM-2 abc
 NHOM-5 abc
 docker-compose up -d
 alo
