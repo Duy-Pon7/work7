@@ -13,7 +13,11 @@ include 'partials/header.php';
         <p class="text-center mb-4 border-bottom pb-4 border-dark"> 
             Lộ trình <strong>cơ bản</strong>, kiến thức <strong>giá trị</strong>, câu chuyện <strong>thú vị</strong> thông qua những môn học ngành IT.
         </p>
-        <h3>Đại học</h3>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" id="searchInput" placeholder="Tìm kiếm theo tên môn học (ví dụ: Kỹ thuật lập trình, Cơ sở dữ liệu...)" aria-label="Tìm kiếm">
+        </div>
+        <div id="searchResults" class="list-group position-absolute" style="z-index: 1000; display: none; width: 100%;"></div>
+        <h3>Các môn học ở đại học</h3>
         <div class="d-flex flex-wrap justify-content-center align-items-center bg-white border border-secondary border-opacity-50 border-1 rounded-2 pt-3 pb-3">
             <?php foreach ($uni as $blog): ?>
                 <!-- Sử dụng thẻ <a> để dẫn đến trang chi tiết blog -->
@@ -37,7 +41,7 @@ include 'partials/header.php';
         <div class="accordion mb-5" id="accordionPanelsStayOpenExample">
             <div class="accordion-item">
                 <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
 
                         <strong>Học Tập IT</strong>
                     </button>
@@ -98,4 +102,40 @@ include 'partials/header.php';
     <div class="col-sm-2 bg-gray">
     </div>
 </div>
+<script>
+    const searchInput = document.getElementById('searchInput');
+    const searchResults = document.getElementById('searchResults');
+
+    searchInput.addEventListener('input', function() {
+        const searchValue = searchInput.value.toLowerCase();
+        const blogLinks = document.querySelectorAll('.btn-outline-primary');
+
+        searchResults.innerHTML = '';
+        if (searchValue.trim() === '') {
+            searchResults.style.display = 'none';
+            return;
+        }
+
+        let hasResults = false;
+        blogLinks.forEach(link => {
+            const text = link.textContent.toLowerCase();
+            if (text.includes(searchValue)) {
+                const resultItem = document.createElement('a');
+                resultItem.href = link.href;
+                resultItem.className = 'list-group-item list-group-item-action';
+                resultItem.textContent = link.textContent;
+                searchResults.appendChild(resultItem);
+                hasResults = true;
+            }
+        });
+
+        searchResults.style.display = hasResults ? 'block' : 'none';
+    });
+
+    document.addEventListener('click', function(event) {
+        if (!searchResults.contains(event.target) && event.target !== searchInput) {
+            searchResults.style.display = 'none';
+        }
+    });
+</script>
 <?php include 'partials/footer.php'; ?>
