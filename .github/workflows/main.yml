@@ -1,0 +1,28 @@
+name: CI Pull Request
+
+on:
+  pull_request:
+    types: [closed]   # Trigger khi PR được merged hoặc closed
+
+jobs:
+  update-jira:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Update Jira Issue status
+      run: |
+        ISSUE_KEY=$(echo "${{ github.event.pull_request.title }}" | grep -oE '[A-Z]+-[0-9]+')
+        echo "Found issue key: $ISSUE_KEY"
+
+        curl -u "${{ secrets.JIRA_EMAIL }}:${{ secrets.JIRA_API_TOKEN }}" \
+          -X POST \
+          --header 'Content-Type: application/json' \
+          --data '{
+            "transition": { "id": "31" }
+          }' \
+          https://nhom0001.atlassian.net/rest/api/3/issue/$ISSUE_KEY/transitions
+
+    - name: Notify Slack
+      run: |
+        curl -X POST -H 'Content-type: application/json' --data '{"text":"Pull Request has been merged!"}' ${{ secrets.SLACK_WEBHOOK_URL }}
