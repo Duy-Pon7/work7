@@ -6,11 +6,11 @@
     <div class="col-sm-8 bg-gray">
         <h1 class="text-center fw-bold mt-4">Work7</h1>
         
-        <!-- <p class="text-center mb-4">Theo dõi thị trường IT ở Việt Nam theo <b>thời gian thực</b>. Phân
+        <p class="text-center mb-4">Theo dõi thị trường IT ở Việt Nam theo <b>thời gian thực</b>. Phân
                 tích,
-                trực quan hóa, đưa ra các insights.</p> -->
+                trực quan hóa, đưa ra các insights.</p>
 
-        <p class="text-center ms-5 me-5 mb-4 border-bottom pb-4 border-dark"> Đơn giản hóa công nghệ, công việc và nhiều thứ khác.</p>
+        <!-- <p class="text-center ms-5 me-5 mb-4 border-bottom pb-4 border-dark"> Đơn giản hóa công nghệ, công việc và nhiều thứ khác.</p> -->
         <img class="rounded-3" src="/public/images/page_1.png" alt="Trang đầu tiên của PDF" width="100%" />
     </div>
     <div class="col-sm-2 bg-gray">
