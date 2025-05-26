@@ -14,6 +14,14 @@ Trong thời đại công nghệ số phát triển mạnh mẽ như hiện nay,
 
 ![src/public/images/Screenshot 2025-03-17 114500.png](https://github.com/Duy-Pon7/work7/blob/7658d2e87adfccbe654fef812b5b1cab292f344b/src/public/images/Screenshot%202025-03-17%20114500.png)
 ![src/public/images/Screenshot 2025-03-17 114520.png](https://github.com/Duy-Pon7/work7/blob/7658d2e87adfccbe654fef812b5b1cab292f344b/src/public/images/Screenshot%202025-03-17%20114520.png)
+## 🧱 Khó khăn
+Trình bày dạng blog khó tiếp cận người dùng.
+Chi phí duy trì dự án.
+Nguồn thu xuất phát từ donate, tiếp thị liên kết nhưng không đáng kể.
+![image_alt]([src/public/images/Screenshot 2025-03-17 114534.png](https://github.com/Duy-Pon7/work7/blob/7658d2e87adfccbe654fef812b5b1cab292f344b/src/public/images/Screenshot%202025-03-17%20114534.png))
+![src/public/images/Screenshot 2025-03-17 114534.png](https://github.com/Duy-Pon7/work7/blob/7658d2e87adfccbe654fef812b5b1cab292f344b/src/public/images/Screenshot%202025-03-17%20114534.png)
+## ✅ Kết luận
+Qua quá trình thực hiện dự án, tôi đã có cái nhìn sâu sắc hơn về cách vận hành một sản phẩm nội dung số, từ việc xây dựng nền tảng, phát triển nội dung đến duy trì và mở rộng tệp người dùng.
 
 ## ⚙️ Hướng dẫn cài đặt
 
